@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link href="./css/style.css" type="text/css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+
+  <link href="./css/tab-respo.css" rel="stylesheet" type="text/css" />
+  <link href="./css/respo-con.css" rel="stylesheet" type="text/css" />
+  <link href="./css/desktop-respo.css" rel="stylesheet" type="text/css" />
+  <link href="./css/mobile-respo.css" rel="stylesheet" type="text/css" />
+
+
+
+  <title>giarddesign</title>
+</head>
+
+<body>
+
+  <div class=" page">
+
+
+
+    <nav class="navbar bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./Images/logo.png" alt="giardesign" width="152" height="25">
+        </a>
+        <ul class="nav justify-content-end list">
+          <li class="nav-item dropdown of">
+            <a class="nav-link text-black fs fw-medium  " role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Oferta
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                class="bi bi-chevron-down" viewBox="0 0 15 16">
+                <path fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fs fw-medium" href="#">Projektowanie</a></li>
+              <li><a class="dropdown-item fs fw-medium" href="#">Realizacja</a></li>
+              <li><a class="dropdown-item fs fw-medium" href="#">Pielęgnacja</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item firm">
+            <a class="nav-link text-black fs fw-medium">O firmie</a>
+          </li>
+          <li class="nav-item re">
+            <a class="nav-link text-black fs fw-medium" href="#">Realizacje</a>
+          </li>
+          <li class="nav-item ko">
+            <a class="nav-link text-black fs fw-semedium" href="#">Kontakt</a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="search-bar">
+
+        <button id="search-btn">
+          <img src="./Images/icons8-search-30.png" alt="Search Icon">
+        </button>
+        <input type="text" id="searchInput" class="collapsed" placeholder="Szukaj...">
+      </div>
+      <script src="./js/search-bar.js"></script>
+
+
+
+    </nav>
+
+    <div class="carousel">
+      <div class="carousel__nav">
+        <span id="moveLeft" class="carousel__arrow">
+          <svg class="carousel__icon" viewBox="0 0 24 24">
+            <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+          </svg>
+        </span>
+        <span id="moveRight" class="carousel__arrow">
+          <svg class="carousel__icon" viewBox="0 0 24 24">
+            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+          </svg>
+        </span>
+      </div>
+      <div class="carousel-item carousel-item--1">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h1 class="carousel-h1">Nowoczesna aranżacja
+              Twojego ogrodu </h1>
+            <p class="carousel-p">
+              Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres
+              usług z indywidualnym podejściem do każdego projektu.
+            </p>
+
+            <button class="con-btn">
+              Skontaktuj się z nami
+            </button>
+            <button class="re-btn">
+              Zobacz nasze realizacje
+              <img src="./Images/icons8-arrow-30.png" alt="Icon">
+            </button>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item--2">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h1 class="carousel-h1">Nowoczesna aranżacja
+              Twojego ogrodu </h1>
+            <p class="carousel-p">
+              Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres
+              usług z indywidualnym podejściem do każdego projektu.
+            </p>
+
+            <button class="con-btn">
+              Skontaktuj się z nami
+            </button>
+            <button class="re-btn">
+              Zobacz nasze realizacje
+              <img src="./Images/icons8-arrow-30.png" alt="Icon">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-item--3">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h1 class="carousel-h1">Nowoczesna aranżacja
+              Twojego ogrodu </h1>
+            <p class="carousel-p">
+              Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres
+              usług z indywidualnym podejściem do każdego projektu.
+            </p>
+
+            <button class="con-btn">
+              Skontaktuj się z nami
+            </button>
+            <button class="re-btn">
+              Zobacz nasze realizacje
+              <img src="./Images/icons8-arrow-30.png" alt="Icon">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item carousel-item--4">
+        <div class="carousel-item__image"></div>
+        <div class="carousel-item__info">
+          <div class="carousel-item__container">
+            <h1 class="carousel-h1">Nowoczesna aranżacja
+              Twojego ogrodu </h1>
+            <p class="carousel-p">
+              Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres
+              usług z indywidualnym podejściem do każdego projektu.
+            </p>
+
+            <button class="con-btn">
+              Skontaktuj się z nami
+            </button>
+            <button class="re-btn">
+              Zobacz nasze realizacje
+              <img src="./Images/icons8-arrow-30.png" alt="Icon">
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="./js/script.js"></script>
+
+
+    <div class="offer">
+
+      <p>Oferta</p>
+      <h1>Działamy <em>kompleksowo</em></h1>
+      <div class="off-info">Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody
+        przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym
+        etapie posłużymy radą i wieloletnim doświadczeniem. </div>
+
+      <div class="info-pannel-1">
+        <img src="./Images/pencil.png" alt="pencil" />
+
+        <h2>Projekty</h2>
+        <p> Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.</p>
+
+        <button>
+          <a href="#">Dowiedz się więcej<img src="./Images/arrow_left_btn.png" /> </a>
+
+        </button>
+
+      </div>
+      <div class="info-pannel-2">
+        <img src="./Images/eye.png" alt="pencil" />
+
+        <h2>Wizualizacje</h2>
+        <p> Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru animowanego w technologii 3D. </p>
+
+        <button>
+          <a href="#">Dowiedz się więcej<img src="./Images/arrow_left_btn.png" /> </a>
+
+        </button>
+
+      </div>
+
+
+      <div class="info-pannel-3">
+
+        <img src="./Images/blink.png" alt="pencil" />
+
+        <h2>Realizacje</h2>
+
+
+        <p> Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i zaawansowanych technologii. </p>
+
+        <button>
+          <a href="#">Zobacz nasze realizacje<img src="./Images/arrow_left_btn.png" /> </a>
+
+        </button>
+
+      </div>
+
+
+
+
+    </div>
+
+    <div class="about">
+
+      <div class="sticked"></div>
+      <div class="leftside">
+        <p>O firmie</p>
+        <h1>Tworzymy <em>z pasją</em></h1>
+        <div class="paragraph-left">
+
+          Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą wykwalifikowani projektanci oraz architekci,
+          których zadaniem jest rozpoznanie i realizacja potrzeb każdego Klienta. Nasza specjalizacja to przestrzenie
+          nowoczesne, które charakteryzuje minimalizm, geometria i elegancka prostota. Tworzymy ogrody małoobsługowe,
+          dostosowane do współczesnego trybu życia.
+        </div>
+        <button class="leftside-btn">
+          Poznaj nas bliżej
+          <img src="./Images/icons8-arrow-30(1).png" alt="Icon">
+        </button>
+
+
+      </div>
+
+
+    </div>
+
+    <div class="projects">
+      <p>Realizacje</p>
+      <h1>Nasze projekty</h1>
+      <div class="content">
+        <div class="grid-item--width2  image">
+          <a data-fancybox="gallery" href="./Images/imagee.jpg" class="gallery-item">
+            <img src="./Images/image.jpg" alt="Image">
+          </a>
+        </div>
+
+        <div class="grid-item image">
+          <a data-fancybox="gallery" href="./Images/image1e.jpg" class="gallery-item">
+            <img src="./Images/image1.jpg" alt="Image 1">
+          </a>
+        </div>
+        <div class="grid-item--width3 image">
+          <a data-fancybox="gallery" href="./Images/image2e.jpg" class="gallery-item">
+            <img src="./Images/image2.jpg" alt="Image 2">
+          </a>
+        </div>
+        <div class="grid-item--width3 image">
+          <a data-fancybox="gallery" href="./Images/image3e.jpg" class="gallery-item">
+            <img src="./Images/image3.jpg" alt="Image 3">
+          </a>
+        </div>
+        <div class="grid-item image">
+          <a data-fancybox="gallery" href="./Images/image4e.jpg" class="gallery-item">
+            <img src="./Images/image4.jpg" alt="Image 4">
+          </a>
+        </div>
+        <div class="grid-item--width2 image">
+          <a data-fancybox="gallery" href="./Images/image5e.jpg" class="gallery-item">
+            <img src="./Images/image5.jpg" alt="Image 5">
+          </a>
+        </div>
+
+
+        <div class="grid-item image">
+          <a data-fancybox="gallery" href="./Images/image6e.jpg" class="gallery-item">
+            <img src="./Images/image6.jpg" alt="Image 6">
+          </a>
+        </div>
+        <div class="grid-item--width2 image">
+          <a data-fancybox="gallery" href="./Images/image7e.jpg" class="gallery-item">
+            <img src="./Images/image7.jpg" alt="Image 7">
+          </a>
+        </div>
+        <div class="grid-item--width3 image">
+          <a data-fancybox="gallery" href="./Images/image8e.jpg" class="gallery-item">
+            <img src="./Images/image8.jpg" alt="Image 8">
+          </a>
+        </div>
+
+        <!-- Partially visible -->
+
+
+        <div class="image partially-visible grid-item--width3 ">
+          <a data-fancybox="gallery" href="./Images/image9e.jpg" class="gallery-item">
+            <img src="./Images/image9.jpg" alt="Image 9">
+          </a>
+        </div>
+        <div class="image partially-visible grid-item ">
+          <a data-fancybox="gallery" href="./Images/image10e.jpg" class="gallery-item">
+            <img src="./Images/image10.jpg" alt="Image 10">
+          </a>
+        </div>
+        <div class="image partially-visible grid-item--width2 ">
+          <a data-fancybox="gallery" href="./Images/image11e.jpg" class="gallery-item">
+            <img src="./Images/image11.jpg" alt="Image 11">
+          </a>
+        </div>
+
+
+        <div class="image hidden grid-item--width3 ">
+          <a data-fancybox="gallery" href="./Images/image-ae.jpg" class="gallery-item">
+            <img src="./Images/image-a.jpg" alt="image-a">
+          </a>
+        </div>
+
+        <div class="image hidden grid-item ">
+          <a data-fancybox="gallery" href="./Images/image-be.jpg" class="gallery-item">
+            <img src="./Images/image-b.jpg" alt="image-b">
+          </a>
+        </div>
+        <div class="image hidden grid-item--width2 it ">
+          <a data-fancybox="gallery" href="./Images/image-ce.jpg" class="gallery-item">
+            <img src="./Images/image-c.jpg" alt="image-c">
+          </a>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="overlay"></div>
+      <button id="expandButton"> <span class="button-text">Rozwiń</span>
+        <i class="fas fa-arrow-down icon"></i> </button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="/path/to/masonry.pkgd.min.js"></script>
+
+    <script src="./js/expanding-photos.js">
+
+    </script>
+
+    <div class="insta">
+
+      <div class="place">
+
+        <h1>
+          Zostańmy w kontakcie! Znajdziesz nas na <strong><em>Instagramie</em></strong>
+        </h1>
+
+        <div class="insta-btn">
+
+          <h4>Śledź nasze najnowsze realizacje!</h4>
+          <button>Instagram</button>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="footer">
+      <img src="./Images/logo-white.png" alt="logo" class="logo-footer">
+
+      <h4>Daj znać, co możemy dla Ciebie zrobić!</h4>
+
+      <button class="footer-btn">
+        Skontaktuj się z nami
+      </button>
+
+      <hr class="footer-hr">
+      <div class="list-ft">
+
+        <ul class="lf">
+
+          <li class="l1">
+            Kontakt
+          </li>
+          <li class="l1">
+            Instagram
+          </li>
+          <li class="l1">
+            Facebook
+          </li>
+          <li class="l1">
+            LinkedIn
+          </li>
+
+        </ul>
+
+      </div>
+
+      <p class="foot-nbr">000-000-000</p>
+      <p class="foot-mail">giarddesign@kontakt.pl</p>
+
+
+      <p class="foot-copy">Prawa zastrzeżone &copy; 2022</p>
+
+      <p class="foot-res">made by <img src="./Images/adre-logo.png" alt="adespect" class="foot-img"> </p>
+
+    </div>
+
+</body>
+
+</html>

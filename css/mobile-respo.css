@@ -1,0 +1,959 @@
+@media (min-width: 200px) and (max-width: 468px) {
+  .page {
+    margin: 0 0 0 0;
+  }
+  .firm,
+  .re,
+  .ko,
+  .of {
+    left: 1%;
+  }
+  
+
+  nav {
+    height: 150px;
+    width: 100%;
+  }
+
+  .logo {
+    left: 70%;
+  }
+
+  .fs {
+    font-size: 13px;
+  }
+
+  .search-bar {
+    left: 30%;
+  }
+  /* Carousel styles */
+  .carousel {
+    height: 400px;
+  }
+
+  .carousel-item__info {
+    width: 60%;
+  }
+
+  .carousel-item__image {
+    width: 40%;
+  }
+
+  .carousel-h1 {
+    width: 180px;
+    font-size: 1.25em;
+    left: -15%;
+    top: 3%;
+  }
+  .carousel-p {
+    font-size: 15px;
+    width: 200px;
+    position: relative;
+    left: -12%;
+    top: 4%;
+  }
+
+  .con-btn {
+    width: 100px;
+    height: 46px;
+
+    font-size: 0.5rem;
+
+    top: 5%;
+    left: 17%;
+  }
+
+  .re-btn {
+    width: 170px;
+    height: 46px;
+
+    font-size: 0.75rem;
+    position: relative;
+    left: -2%;
+    top: 6%;
+  }
+
+  .re-btn img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #moveLeft {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 2%;
+    top: -5%;
+  }
+
+  #moveRight {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 5%;
+    top: -3%;
+  }
+
+  .carousel__icon {
+    width: 20px;
+    height: 20px;
+    fill: #5d5d5d;
+  }
+
+  .carousel__nav {
+    width: 100px;
+    height: 40px;
+  }
+
+  .offer {
+    height: 1200px;
+  }
+
+  .offer p,
+  .offer h1,
+  .off-info {
+    width: 80%;
+    left: 10%;
+  }
+
+  .info-pannel-1 {
+    width: 250px;
+    height: 200px;
+    top: 20%;
+    left: 17%;
+  }
+
+  .off-info {
+    font-size: 2.2vmin;
+  }
+
+  .offer h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 6.75vmin;
+    position: relative;
+    left: 13.5%;
+    top: 13%;
+  }
+
+  .info-pannel-1 img {
+    width: 30px;
+    height: 30px;
+
+    top: 20%;
+    left: 6%;
+  }
+  .info-pannel-1 h2 {
+    top: 22%;
+    left: 11.5%;
+    font-size: 3vmin;
+    font-weight: lighter;
+  }
+
+  .info-pannel-1 p {
+    font-size: 1.5vmin;
+    width: 200px;
+    position: relative;
+    top: 24%;
+    left: 11%;
+    color: #111111;
+  }
+
+  .info-pannel-1 button img {
+    width: 15px;
+    height: 15px;
+  }
+  .info-pannel-1 button a {
+    text-decoration: none;
+    color: #1b5b31;
+    font-size: 2vmin;
+  }
+
+  .info-pannel-2 {
+    width: 250px;
+    height: 200px;
+    top: 25%;
+    left: 17%;
+  }
+
+  .info-pannel-2 img {
+    width: 30px;
+    height: 30px;
+  }
+  .info-pannel-2 h2 {
+    font-size: 3vmin;
+    font-weight: lighter;
+  }
+
+  .info-pannel-2 p {
+    font-size: 1.5vmin;
+    width: 200px;
+  }
+
+  .info-pannel-2 button img {
+    width: 15px;
+    height: 15px;
+  }
+  .info-pannel-2 button a {
+    font-size: 2vmin;
+  }
+
+  .info-pannel-3 {
+    width: 250px;
+    height: 200px;
+    top: 30%;
+    left: 17%;
+  }
+
+  .info-pannel-3 img {
+    width: 30px;
+    height: 30px;
+  }
+  .info-pannel-3 h2 {
+    font-size: 3vmin;
+    font-weight: lighter;
+  }
+
+  .info-pannel-3 p {
+    font-size: 1.5vmin;
+    width: 200px;
+  }
+
+  .info-pannel-3 button img {
+    width: 15px;
+    height: 15px;
+  }
+  .info-pannel-3 button a {
+    font-size: 2vmin;
+  }
+
+  .info-pannel-3 button {
+    top: 40%;
+  }
+
+  .about {
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .sticked {
+    width: 50%;
+    height: 500px;
+  }
+  .leftside {
+    width: 50%;
+    height: 500px;
+  }
+
+  .leftside p,
+  .leftside h1,
+  .leftside-btn {
+    left: 5%;
+  }
+
+  .leftside h1 {
+    font-size: 4vmin;
+    width: 180px;
+  }
+
+  .paragraph-left {
+    width: 150px;
+    left: 4%;
+    font-size: 1.8vmin;
+  }
+
+  .leftside-btn {
+    width: 145px;
+    height: 50px;
+    font-size: 0.75rem;
+    left: 10%;
+  }
+
+  .content {
+    position: relative;
+
+    top: 2vmin;
+  }
+
+  .grid-item {
+    position: relative;
+    left: 25%;
+  }
+
+  .grid-item--width2 {
+    position: relative;
+    left: 13%;
+  }
+
+  .expanded .hidden {
+    visibility: visible;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .partially-visible {
+    height: 100px;
+  }
+
+  .grid-item {
+    width: 300px;
+  }
+  .grid-item--width2 {
+    width: 300px;
+  }
+  .grid-item--width3 {
+    width: 300px;
+  }
+
+  .expanded .grid-item--width2 {
+    width: 300px;
+  }
+  .expanded .grid-item--width3 {
+    width: 300px;
+  }
+
+  .expanded .grid-item {
+    width: 300px;
+  }
+
+  .grid-item {
+    position: relative;
+    left: 8%;
+  }
+
+  .grid-item--width2 {
+    position: relative;
+    left: 8%;
+  }
+
+  .grid-item--width3 {
+    position: relative;
+    left: 8%;
+  }
+
+  #expandButton {
+    bottom: 80px;
+
+    width: 120px;
+    height: 60px;
+    font-size: 1em;
+  }
+
+  .expanded #expandButton {
+    bottom: 10px; /* Adjust this value as needed */
+  }
+
+  .projects h1 {
+    margin-top: 12%;
+    margin-bottom: 5%;
+    left: -20%;
+    font-size: 6vmin;
+
+    top: 2vmin;
+  }
+
+  .projects p {
+    position: relative;
+    left: -37%;
+  }
+
+  .place {
+    width: 350px;
+    height: 400px;
+
+    left: 4%;
+    top: 19%;
+  }
+
+  .insta-btn {
+    width: 200px;
+    height: 300px;
+    background-color: transparent;
+    top: 20%;
+    left: 30%;
+  }
+
+  .place h1 {
+    width: 250px;
+    font-size: 4vmin;
+    position: relative;
+    top: 20%;
+    left: 14%;
+  }
+
+  .insta-btn h4 {
+    width: 250px;
+    left: -25%;
+    font-size: 4vmin;
+  }
+
+  .insta-btn button {
+    width: 125px;
+    height: 50px;
+    font-size: 1rem;
+    position: relative;
+    top: 36%;
+    left: 2%;
+  }
+
+  .footer {
+    height: 450px;
+  }
+
+  .logo-footer {
+    width: 30%;
+    left: 35%;
+    top: 3%;
+  }
+  .footer h4 {
+    font-size: 3vmin;
+    left: 25%;
+    top: 10%;
+  }
+
+  .footer-btn {
+    width: 155px;
+    height: 56px;
+    font-size: 0.75rem;
+    left: 33%;
+    top: 15%;
+  }
+
+  .footer-hr {
+    width: 300px;
+    top: 17%;
+    left: 12%;
+  }
+
+  .list-ft .lf {
+    font-size: 3vmin;
+  }
+
+  .list-ft .lf .l1 {
+    margin-right: 43px;
+  }
+  .list-ft {
+    position: relative;
+    top: 20%;
+    left: 1%;
+  }
+
+  .foot-nbr,
+  .foot-mail,
+  .foot-copy,
+  .foot-res {
+    left: 5%;
+  }
+
+  .foot-img {
+    width: 30%;
+  }
+  .foot-res {
+    font-size: 3vmin;
+    top: 28%;
+    left: 28%;
+  }
+
+  .foot-nbr {
+    font-size: 2vmin;
+    left: 20%;
+    top: 20%;
+  }
+
+  .foot-mail {
+    font-size: 2vmin;
+
+    left: 55%;
+    top: 15.5%;
+  }
+
+  .foot-copy {
+    font-size: 3vmin;
+
+    top: 25%;
+    left: 30%;
+  }
+}
+
+/*------------------------------------------------------------------------ */
+
+@media (min-width: 469px) and (max-width: 768px) {
+  .page {
+    margin: 0 0 0 0;
+  }
+  .firm,
+  .re,
+  .ko,
+  .of {
+    left: 1%;
+  }
+
+  nav {
+    height: 150px;
+    width: 100%;
+  }
+
+  .logo {
+    left: 70%;
+  }
+
+  .fs {
+    font-size: 13px;
+  }
+
+  .search-bar {
+    left: 30%;
+  }
+  /* Carousel styles */
+  .carousel {
+    height: 400px;
+  }
+
+  .carousel-item__info {
+    width: 60%;
+  }
+
+  .carousel-item__image {
+    width: 40%;
+  }
+
+  .carousel-h1 {
+    width: 180px;
+    font-size: 1.25em;
+    left: -15%;
+    top: 3%;
+  }
+  .carousel-p {
+    font-size: 15px;
+    width: 200px;
+    position: relative;
+    left: -12%;
+    top: 4%;
+  }
+
+  .con-btn {
+    width: 100px;
+    height: 46px;
+
+    font-size: 0.5rem;
+
+    top: 5%;
+    left: 12%;
+  }
+
+  .re-btn {
+    width: 170px;
+    height: 46px;
+
+    font-size: 0.75rem;
+    position: relative;
+    left: -2%;
+    top: 6%;
+  }
+
+  .re-btn img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #moveLeft {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 2%;
+    top: -5%;
+  }
+
+  #moveRight {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 5%;
+    top: -3%;
+  }
+
+  .carousel__icon {
+    width: 20px;
+    height: 20px;
+    fill: #5d5d5d;
+  }
+
+  .carousel__nav {
+    width: 100px;
+    height: 40px;
+  }
+
+  .offer {
+    height: 1200px;
+  }
+
+  .offer p,
+  .offer h1,
+  .off-info {
+    width: 80%;
+    left: 10%;
+  }
+
+  .info-pannel-1 {
+    width: 250px;
+    height: 200px;
+    top: 20%;
+    left: 25%;
+  }
+
+  .off-info {
+    font-size: 2.2vmin;
+  }
+
+  .offer h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 6.75vmin;
+    position: relative;
+    left: 13.5%;
+    top: 13%;
+  }
+
+  .info-pannel-1 img {
+    width: 30px;
+    height: 30px;
+
+    top: 20%;
+    left: 6%;
+  }
+  .info-pannel-1 h2 {
+    top: 22%;
+    left: 11.5%;
+    font-size: 3vmin;
+    font-weight: lighter;
+  }
+
+  .info-pannel-1 p {
+    font-size: 1.5vmin;
+    width: 200px;
+    position: relative;
+    top: 24%;
+    left: 11%;
+    color: #111111;
+  }
+
+  .info-pannel-1 button img {
+    width: 15px;
+    height: 15px;
+  }
+  .info-pannel-1 button a {
+    text-decoration: none;
+    color: #1b5b31;
+    font-size: 2vmin;
+  }
+
+  .info-pannel-1 button {
+    top: 20%;
+  }
+
+  .info-pannel-2 {
+    width: 250px;
+    height: 200px;
+    top: 25%;
+    left: 25%;
+  }
+
+  .info-pannel-2 img {
+    width: 30px;
+    height: 30px;
+  }
+  .info-pannel-2 h2 {
+    font-size: 3vmin;
+    font-weight: lighter;
+  }
+
+  .info-pannel-2 p {
+    font-size: 1.5vmin;
+    width: 200px;
+  }
+
+  .info-pannel-2 button img {
+    width: 15px;
+    height: 15px;
+  }
+  .info-pannel-2 button a {
+    font-size: 2vmin;
+  }
+  .info-pannel-2 button {
+    top: 20%;
+  }
+
+  .info-pannel-3 {
+    width: 250px;
+    height: 200px;
+    top: 30%;
+    left: 25%;
+  }
+
+  .info-pannel-3 img {
+    width: 30px;
+    height: 30px;
+  }
+  .info-pannel-3 h2 {
+    font-size: 3vmin;
+    font-weight: lighter;
+  }
+
+  .info-pannel-3 p {
+    font-size: 1.5vmin;
+    width: 200px;
+  }
+
+  .info-pannel-3 button img {
+    width: 15px;
+    height: 15px;
+  }
+  .info-pannel-3 button a {
+    font-size: 2vmin;
+  }
+
+  .info-pannel-3 button {
+    top: 20%;
+  }
+
+  .about {
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .sticked {
+    width: 50%;
+    height: 500px;
+  }
+  .leftside {
+    width: 50%;
+    height: 500px;
+  }
+
+  .leftside p,
+  .leftside h1,
+  .leftside-btn {
+    left: 5%;
+  }
+
+  .leftside h1 {
+    font-size: 4vmin;
+    width: 180px;
+  }
+
+  .paragraph-left {
+    width: 150px;
+    left: 4%;
+    font-size: 1.8vmin;
+  }
+
+  .leftside-btn {
+    width: 145px;
+    height: 50px;
+    font-size: 0.75rem;
+    left: 10%;
+  }
+
+  .content {
+    position: relative;
+    left: 10%;
+    top: 2vmin;
+  }
+
+  .grid-item {
+    position: relative;
+    left: 25%;
+  }
+
+  .grid-item--width2 {
+    position: relative;
+    left: 13%;
+  }
+
+  .expanded .hidden {
+    visibility: visible;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .partially-visible {
+    height: 100px;
+  }
+
+  .grid-item {
+    width: 300px;
+  }
+  .grid-item--width2 {
+    width: 300px;
+  }
+  .grid-item--width3 {
+    width: 300px;
+  }
+
+  .expanded .grid-item--width2 {
+    width: 300px;
+  }
+  .expanded .grid-item--width3 {
+    width: 300px;
+  }
+
+  .expanded .grid-item {
+    width: 300px;
+  }
+
+  .grid-item {
+    position: relative;
+    left: 8%;
+  }
+
+  .grid-item--width2 {
+    position: relative;
+    left: 8%;
+  }
+
+  .grid-item--width3 {
+    position: relative;
+    left: 8%;
+  }
+
+  #expandButton {
+    bottom: 80px;
+
+    width: 120px;
+    height: 60px;
+    font-size: 1em;
+  }
+
+  .expanded #expandButton {
+    bottom: 10px; /* Adjust this value as needed */
+  }
+
+  .projects h1 {
+    margin-top: 12%;
+    margin-bottom: 5%;
+    left: -20%;
+    font-size: 6vmin;
+
+    top: 2vmin;
+  }
+
+  .projects p {
+    position: relative;
+    left: -37%;
+  }
+
+  .place {
+    width: 350px;
+    height: 400px;
+
+    left: 15%;
+    top: 19%;
+  }
+
+  .insta-btn {
+    width: 200px;
+    height: 300px;
+    background-color: transparent;
+    top: 20%;
+    left: 30%;
+  }
+
+  .place h1 {
+    width: 250px;
+    font-size: 4vmin;
+    position: relative;
+    top: 20%;
+    left: 14%;
+  }
+
+  .insta-btn h4 {
+    width: 250px;
+    left: -25%;
+    font-size: 4vmin;
+  }
+
+  .insta-btn button {
+    width: 125px;
+    height: 50px;
+    font-size: 1rem;
+    position: relative;
+    top: 36%;
+    left: 2%;
+  }
+
+  .footer {
+    height: 450px;
+  }
+
+  .logo-footer {
+    width: 30%;
+    left: 35%;
+    top: 3%;
+  }
+  .footer h4 {
+    font-size: 3vmin;
+    left: 25%;
+    top: 10%;
+  }
+
+  .footer-btn {
+    width: 155px;
+    height: 56px;
+    font-size: 0.75rem;
+    left: 33%;
+    top: 15%;
+  }
+
+  .footer-hr {
+    width: 300px;
+    top: 17%;
+    left: 12%;
+  }
+
+  .list-ft .lf {
+    font-size: 3vmin;
+  }
+
+  .list-ft .lf .l1 {
+    margin-right: 43px;
+  }
+  .list-ft {
+    position: relative;
+    top: 20%;
+    left: 1%;
+  }
+
+  .foot-nbr,
+  .foot-mail,
+  .foot-copy,
+  .foot-res {
+    left: 5%;
+  }
+
+  .foot-img {
+    width: 30%;
+  }
+  .foot-res {
+    font-size: 3vmin;
+    top: 28%;
+    left: 28%;
+  }
+
+  .foot-nbr {
+    font-size: 2vmin;
+    left: 20%;
+    top: 20%;
+  }
+
+  .foot-mail {
+    font-size: 2vmin;
+
+    left: 55%;
+    top: 15.5%;
+  }
+
+  .foot-copy {
+    font-size: 3vmin;
+
+    top: 25%;
+    left: 30%;
+  }
+}
